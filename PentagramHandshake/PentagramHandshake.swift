@@ -20,7 +20,7 @@ final class PentagramHandshake: NSObject {
     
     private var completedPans = 0
     
-    public var sixsixsix:CGRect!
+    public var sixsixsix: CGRect!
     
     public var intialTaps = 6
     

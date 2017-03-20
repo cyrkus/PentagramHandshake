@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol PentagramHandshakeDelegate: class {
+public protocol PentagramHandshakeDelegate: class {
     func didCompleteHandshake()
 }
 
-final class PentagramHandshake: NSObject {
+public final class PentagramHandshake: NSObject {
     
     public weak var delegate: PentagramHandshakeDelegate!
     
